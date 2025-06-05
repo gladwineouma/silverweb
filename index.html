@@ -1,47 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green kiosk</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
 </head>
+
 <body>
+    <nav class="nav-bar">
+    <a href=>Home</a>
+    <a href="#fruList">Fruits</a>
+    <a href="#vegList">Vegetable</a>
+  </nav>
     <h1 id="title">Welcome to Greens Kiosk</h1>
+      <div id="intro">
+        <h1 id="kiosk">Green Kiosks</h1>
+        <p id="line">Serves you with fresh groceries </p>
+    </div>
 
-<p>We sell fruits and vegetables</p>
+    <p>We sell fruits and vegetables</p>
+  
 
-<h3>Fruits</h3>
+    <div id="list">
+        <div class="fruits">
+            <h3>Fruits</h3>
 
-<ul id="fruList">
+            <ul id="fruList">
 
-<li>Mangoes</li>
+                <li>Mangoes</li>
 
-<li>Bananas</li>
+                <li>Bananas</li>
 
-<li>Water Melons</li>
+                <li>Water Melons</li>
 
-</ul>
-<div class="fruits">
-    <img src="images/apple.jpeg" id="display">
-    <img src="images/banana.jpeg"  id="display">
-    <img src="images/mango.jpeg"  id="display">
-    <img src="images/melon.jpeg"  id="display">
-    <img src="images/orange.jpeg"  id="display">
-    <img src="images/pineapple.jpeg"  id="display">
-</div>
+            </ul>
+        </div>
 
+        <div>
 
-<h3>Vegetables</h3>
+            <h3>Vegetables</h3>
 
-<ul id="vegList">
+            <ul id="vegList">
 
-<li>Onions</li>
+                <li>Onions</li>
 
-<li>Tomatoes</li>
+                <li>Tomatoes</li>
 
-<li>Kales</li>
+                <li>Kales</li>
 
-</ul>
-<script src="index.js"></script>
+            </ul>
+        </div>
+    </div>    
+
+    <footer>
+            <div id="footer">
+            <div>
+                    <p>Products</p>
+                    <ul>
+                        <li>Fresh vegetables</li>
+                        <li>Fresh fruits</li>
+                        <li>Fresh spices</li>
+                       
+                    </ul>
+            </div>
+            <div>
+                <p>Contacts</p>
+                <ul>
+                    <li>+254734562324</li>
+                    <li>+254737890987</li>
+                    <li>+254732578963</li>
+                  
+                </ul>
+            </div>
+            </div>
+            <p>We value you as our customer</p>
+       
+    </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>

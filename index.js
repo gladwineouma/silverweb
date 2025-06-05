@@ -1,11 +1,27 @@
 
 document.body.style.backgroundColor = "silver";
-const title = document.getElementById("title").style.color = "#03AC13"
+const title = document.getElementById("title").style.color = "green"
+
 
 const heading3 = document.getElementsByTagName("h3");
 for ( let i = 0; i < heading3.length; i++){
     heading3[i].style.textTransform = "uppercase"
 };
+
+const targetElement = document.getElementById("kiosk");
+if (targetElement) {
+  targetElement.style.color = "green"; 
+  targetElement.style.fontSize = "4rem";
+  targetElement.style.fontWeight = "normal" 
+  targetElement.style.textAlign = "center"
+}
+const landingImage = document.getElementById("intro");
+const imageElement = document.createElement("img");
+imageElement.src = "images/veges.png";
+landingImage.appendChild(imageElement);
+imageElement.style.position = "absolute";
+imageElement.style.bottom = "3vh";
+imageElement.style.left = "9vw";
 
 const fruits = document.getElementById("fruList");
 const newFruit = document.createElement("li");
@@ -24,15 +40,12 @@ function resizeAllImages(){
         img.height = 250
     }
 }
+const footers = document.getElementsByTagName('footer').style.color = "black"
 
-// const img = document.querySelectorAll("display");
-//     img.width = 250
-//     img.height = 250
 
-// for (let i = 0; i < img.length; i++){
-//     img.width = 250
-//     img.height = 250
-// }
+
+
+
 
 
 

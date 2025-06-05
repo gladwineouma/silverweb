@@ -1,0 +1,80 @@
+.nav-bar{
+    width:100%;
+    display: flex;
+    background-color: green;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin:auto;
+}
+ a{
+    text-decoration: none;
+    color:white;
+    padding-left: 10%;
+    font-family:poppins;
+    font-size: 19px;
+}
+#intro{
+    background-color: white;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#title{
+    text-align: center;
+}
+#stall{
+    width: 80%;
+    height: 85vh;
+    display: block;
+    margin: auto;
+    
+
+}
+
+#list{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.veges{
+    margin-top: 10%;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
