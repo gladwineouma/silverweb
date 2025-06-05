@@ -65,16 +65,17 @@ p{
 footer{
     background-color: black;
     color: white;
+
 }
 
-#footer{
+.footer{
     display: flex;
     justify-content: space-around;
-    background-color: black;
     color: white;
     margin: 0;
-}
 
-footer ul {
+    ul {
     list-style-type: none;
 }
+}
+

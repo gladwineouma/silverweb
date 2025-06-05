@@ -11,9 +11,10 @@ for ( let i = 0; i < heading3.length; i++){
 const targetElement = document.getElementById("kiosk");
 if (targetElement) {
   targetElement.style.color = "green"; 
-  targetElement.style.fontSize = "4rem";
+  targetElement.style.fontSize = "5rem";
   targetElement.style.fontWeight = "normal" 
   targetElement.style.textAlign = "center"
+  targetElement.style.top = "4vh"
 }
 const landingImage = document.getElementById("intro");
 const imageElement = document.createElement("img");
@@ -33,14 +34,9 @@ const newVeg = document.createElement("li");
 newVeg.textContent = "Carrots";
 vegetable.appendChild(newVeg);
 
-function resizeAllImages(){
-    const images = document.getElementById("display")
-    for (img of images){
-        img.width = 250
-        img.height = 250
-    }
-}
-const footers = document.getElementsByTagName('footer').style.color = "black"
+
+const footer = document.getElementsById('footer');
+footer.style.backgroundColor = "black"
 
 
 
