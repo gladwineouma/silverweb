@@ -17,5 +17,22 @@ const newVeg = document.createElement("li");
 newVeg.textContent = "Carrots";
 vegetable.appendChild(newVeg);
 
+function resizeAllImages(){
+    const images = document.getElementById("display")
+    for (img of images){
+        img.width = 250
+        img.height = 250
+    }
+}
+
+// const img = document.querySelectorAll("display");
+//     img.width = 250
+//     img.height = 250
+
+// for (let i = 0; i < img.length; i++){
+//     img.width = 250
+//     img.height = 250
+// }
+
 
 
